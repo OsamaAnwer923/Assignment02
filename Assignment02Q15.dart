@@ -1,5 +1,6 @@
-void main(){
-// var numbers = [-1,-2,-3,-4, 0 , 1, 2];
-// var checkNumbers = numbers.removeWhere((item) => item < 0);
-//print(checkNumbers);
+void main() {
+  List numbers = [-1, -2, -3, -4, 0, 1, 2];
+  List number1 = numbers.toList();
+  number1.removeWhere((element) => element < 0);
+  print(number1);
 }
