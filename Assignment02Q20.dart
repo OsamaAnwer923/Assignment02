@@ -1,9 +1,8 @@
-void main(){
-  Map car = { "brand": "Toyota", "color" : "Red", "isSedan" : true};
-  if(car["brand"]=="sedan" && car["color"]=="red"){
+void main() {
+  Map car = {"brand": "Toyota", "color": "Red", "isSedan": true};
+  if (car["brand"] == "sedan" && car["color"] == "red") {
     print("Match");
-  }
-  else{
+  } else {
     print("No match");
   }
 }

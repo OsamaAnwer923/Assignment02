@@ -1,9 +1,8 @@
-void main(){
-  Map personInfo = {"name":"osama", "isAdmin":"yes", "isActive":"yes"};
-  if(personInfo["isAdmin"]=="yes" && personInfo["isActive"] == "yes"){
+void main() {
+  Map personInfo = {"name": "osama", "isAdmin": "yes", "isActive": "yes"};
+  if (personInfo["isAdmin"] == "yes" && personInfo["isActive"] == "yes") {
     print("Active Admin");
-  }
-  else{
+  } else {
     print("Not an Active Admin");
   }
 }
