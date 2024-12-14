@@ -5,4 +5,5 @@ void main() {
   numberList.sort;
   print("${numberList.last} is the greatest number");
   print("${numberList.first} is the smallest number");
+  // can use reduce method 
 }
