@@ -4,14 +4,14 @@
 // value of Capital & Currency.
 void main() {
   // need to check again
-  Map countries = {
+  Map world = {
     "Pakistan": {
       "capital city": "islamabad",
       "currency": "rupees",
       "language": "urdu"
     }
   };
-  print(countries["Pakistan"]["capital city"]);
-  print(countries["Pakistan"]["currency"]);
-  print(countries["Pakistan"]["language"]);
+  print(world["Pakistan"]["capital city"]);
+  print(world["Pakistan"]["currency"]);
+  print(world["Pakistan"]["language"]);
 }

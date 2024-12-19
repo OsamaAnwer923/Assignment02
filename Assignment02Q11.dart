@@ -3,7 +3,8 @@
 //list.
 void main() {
   int n = 2;
-  List<int> listOfIntegers = [n];
-  List<int> firstMember = listOfIntegers.toList();
-  print(firstMember.first);
+  List<int> listOfIntegers = [1, 2, 3, 4];
+  final firstMember = listOfIntegers.take(n).toList();
+  print(firstMember);
+  // correct the question using take method (need first n number from list)
 }
